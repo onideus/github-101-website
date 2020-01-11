@@ -151,9 +151,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Reversed labs 1 and 2, added fork and stash after review with Chris." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1578704278379">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="468" y="15" key="CommitChangelistDialog2" timestamp="1578762361603">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="468" y="15" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578762361603" />
     <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578704278379" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578546057051">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -171,9 +172,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578546057051" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578704282206">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1578762364259">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578762364259" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578704282206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578537722243">
       <screen x="0" y="0" width="1920" height="1040" />
