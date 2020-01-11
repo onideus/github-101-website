@@ -69,7 +69,8 @@
       <workItem from="1578537932610" duration="7598000" />
       <workItem from="1578617232131" duration="320000" />
       <workItem from="1578617594113" duration="957000" />
-      <workItem from="1578703937095" duration="246000" />
+      <workItem from="1578703937095" duration="424000" />
+      <workItem from="1578761493994" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="Updating lab steps and layout.">
       <created>1578542268599</created>
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578618585369</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Reversed labs 1 and 2, added fork and stash after review with Chris.">
+      <created>1578704279082</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578704279082</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,13 +147,14 @@
     <MESSAGE value="Finalizing PowerPoint" />
     <MESSAGE value="Minor updates to the presentation and resources.html" />
     <MESSAGE value="Update to project name." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to project name." />
+    <MESSAGE value="Reversed labs 1 and 2, added fork and stash after review with Chris." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reversed labs 1 and 2, added fork and stash after review with Chris." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1578704217182">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1578704278379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578704217182" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578704278379" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578546057051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -162,10 +171,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578546057051" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578618586666">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1578704282206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578618586666" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578704282206" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578537722243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
