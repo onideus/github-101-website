@@ -1,9 +1,8 @@
-name: CI
-
+name: Deploy Latest Website
 
 on:
   push:
-    branches: 
+    branches:
       - master
   pull_request:
     types: [closed]
@@ -16,20 +15,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: echo Copying website over!
-    - name: ftp-action
-      uses: sebastianpopp/ftp-action@v1.1.0
-      with:
-        # FTP host
-        host: 
-        # FTP user
-        user: ${{ FTP_USER }}
-        # FTP password
-        password: ${{ FTP_USER_PASS }}
-        # Local directory
-        localDir: # optional, default is .
-        # Remote directory
-        remoteDir: /demo.zach-martin.com
-        
+      - uses: actions/checkout@master
+      - name: Run a one-line script
+        run: echo Copying website over!
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        with:
+          ftp-server: ftp://demo.zach-martin.com
+          ftp-username: ${{ secrets.FTP_USER }}
+          ftp-password: ${{ secrets.FTP_USER_PASS }}
+          git-ftp-args: --remote-root "./demo.zach-martin.com"
