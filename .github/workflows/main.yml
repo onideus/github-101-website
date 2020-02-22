@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Run a one-line script
-        run: echo Copying website over!
+        run: echo Copying latest changes to website over via FTP!
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
