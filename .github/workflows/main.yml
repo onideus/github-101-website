@@ -21,7 +21,7 @@ jobs:
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.0.0
         with:
-          ftp-server: ftp://demo.zach-martin.com
+          ftp-server: ftp://github.zach-martin.com
           ftp-username: ${{ secrets.FTP_USER }}
           ftp-password: ${{ secrets.FTP_USER_PASS }}
-          git-ftp-args: --remote-root "./demo.zach-martin.com"
+          git-ftp-args: --remote-root "./github.zach-martin.com"
