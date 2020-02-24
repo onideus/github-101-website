@@ -1,4 +1,4 @@
-# GitHub 101 Website
+# GitHub Intro and Advanced Website
 
 Congratulations on your interest in GitHub! I think you'll find it to be an extremely valuable tool 
 to add to your repertoire. I hope that you've enjoyed the presentation and that you were able to gain 
