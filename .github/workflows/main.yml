@@ -17,11 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Run a one-line script
-        run: echo Copying latest changes to website over via FTP!
-      - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        run: echo Copying latest changes to website over via SFTP!
+      - name: SFTP Deploy
+        uses: wlixcc/SFTP-Deploy-Action@1.1
         with:
-          ftp-server: ftp://github.zach-martin.com
-          ftp-username: ${{ secrets.FTP_USER }}
-          ftp-password: ${{ secrets.FTP_USER_PASS }}
-          git-ftp-args: --remote-root "./github.zach-martin.com"
+          username: ${{ secrets.FTP_USER }}
+          server: amnesia.dreamhost.com
+          ssh_private_key: ${{ secrets.SSH_KEY }}
+          remote_path: "./github.zach-martin.com"
